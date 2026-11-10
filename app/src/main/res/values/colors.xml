@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- IMC App -->
+    <color name="background_component">#1D1E33</color>
+    <color name="background_component_selected">#FF111328</color>
+    <color name="background_app">#0E0B20</color>
+    <color name="background_button">#EB1555</color>
+    <color name="title_text">#FF8D8E98</color>
+    <color name="background_fab">#FF6200EE</color>
+    <color name="peso_bajo">#FFEB3B</color>
+    <color name="peso_normal">#4CAF50</color>
+    <color name="sobrepeso">#FF5722</color>
+    <color name="obesidad">#FF1100</color>
+
+    <!--BoardgamesApp-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="bgapp_background_card">#FF081A4A</color>
+    <color name="bgapp_background_disabled">#04335C</color>
+    <color name="bgapp_background_app">#FF2D4993</color>
+    <color name="bgapp_subtitle_text">#959595</color>
+    <color name="bgapp_accent">#E91E63</color>
+
+    <color name="bgapp_deckbuilding_category">#FF9800</color>
+    <color name="bgapp_euro_category">#00BCD4</color>
+    <color name="bgapp_lcg_category">#4CAF50</color>
+    <color name="bgapp_cooperative_category">#D016F1</color>
+    <color name="bgapp_legacy_category">#EDF351</color>
+
+    <!--ColorsApp-->
+    <color name="cyan">#FF03DAC5</color>
+    <color name="red">#FF1100</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#4CAF50</color>
+    <color name="violet">#D016F1</color>
+    <color name="blue">#04335C</color>
+    <color name="orange">#FF5722</color>
+
+
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_35">#59FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_65">#A6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+
+    <color name="red_20">#33F44336</color>
+    <color name="red_35">#59F44336</color>
+    <color name="red_50">#80F44336</color>
+    <color name="red_65">#A6F44336</color>
+    <color name="red_80">#CCF44336</color>
+
+    <color name="orange_20">#33FF9800</color>
+    <color name="orange_35">#59FF9800</color>
+    <color name="orange_50">#80FF9800</color>
+    <color name="orange_65">#A6FF9800</color>
+    <color name="orange_80">#CCFF9800</color>
+
+    <color name="yellow_20">#33FFEB3B</color>
+    <color name="yellow_35">#59FFEB3B</color>
+    <color name="yellow_50">#80FFEB3B</color>
+    <color name="yellow_65">#A6FFEB3B</color>
+    <color name="yellow_80">#CCFFEB3B</color>
+
+    <color name="green_20">#334CAF50</color>
+    <color name="green_35">#594CAF50</color>
+    <color name="green_50">#804CAF50</color>
+    <color name="green_65">#A64CAF50</color>
+    <color name="green_80">#CC4CAF50</color>
+
+    <color name="cyan_20">#3300BCD4</color>
+    <color name="cyan_35">#5900BCD4</color>
+    <color name="cyan_50">#8000BCD4</color>
+    <color name="cyan_65">#A600BCD4</color>
+    <color name="cyan_80">#CC00BCD4</color>
+
+    <color name="blue_20">#332196F3</color>
+    <color name="blue_35">#592196F3</color>
+    <color name="blue_50">#802196F3</color>
+    <color name="blue_65">#A62196F3</color>
+    <color name="blue_80">#CC2196F3</color>
+
+    <color name="violet_20">#339C27B0</color>
+    <color name="violet_35">#599C27B0</color>
+    <color name="violet_50">#809C27B0</color>
+    <color name="violet_65">#A69C27B0</color>
+    <color name="violet_80">#CC9C27B0</color>
+
+    <color name="black_20">#33000000</color>
+    <color name="black_35">#59000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_65">#A6000000</color>
+    <color name="black_80">#CC000000</color>
+
+</resources>

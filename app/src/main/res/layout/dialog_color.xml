@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@color/bgapp_background_app"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/elige_una_barra"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+            <RadioGroup
+                android:id="@+id/rgRows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbH1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/h1_20"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbH2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/h2_50"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbH3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/h3_80"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbV1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v1_20"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbV2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v2_35"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbV3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v3_50"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbV4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v4_65"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+                <RadioButton
+                    android:id="@+id/rbV5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v5_80"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/elige_un_color"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+            <RadioGroup
+                android:id="@+id/rgColors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rgWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/blanco"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/rgRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rojo"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/red" />
+
+                <RadioButton
+                    android:id="@+id/rbOrange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/naranja"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/orange" />
+
+                <RadioButton
+                    android:id="@+id/rbYellow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amarillo"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/yellow" />
+
+                <RadioButton
+                    android:id="@+id/rbGreen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/verde"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/green" />
+
+                <RadioButton
+                    android:id="@+id/rbCyan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cian"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/cyan" />
+
+                <RadioButton
+                    android:id="@+id/rbBlue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/azul"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/blue" />
+
+                <RadioButton
+                    android:id="@+id/rbViolet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/violeta"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/violet" />
+
+                <RadioButton
+                    android:id="@+id/rbBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/negro"
+                    android:textColor="@color/white"
+                    app:buttonTint="@color/black" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/background_app"
+        android:text="@string/aplicar_color"
+        android:textColor="@color/white" />
+</LinearLayout>
