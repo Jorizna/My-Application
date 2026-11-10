@@ -1,5 +1,5 @@
 # ColorsApp: Paleta de colores
- 
+URL: https://github.com/Jorizna/My-Application
 Aplicación Android (Kotlin) que muestra 3 CardViews horizontales y un RecyclerView con 5 CardViews verticales superpuestos. Cada CardView tiene una opacidad fija, y el usuario puede cambiar su color desde un Dialog.
  
 ## 1. Descripción
